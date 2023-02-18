@@ -53,5 +53,23 @@ I also made sure the root access keys were disabled and MFA was set up on my AWS
 
 ### Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue
 
+I created an Eventbridge rule to check for Service Health and attached an SNS topic called 'service-health' that notifies me through my email.
+
+![eventbridge](assets/eventbridge.jpg)
+
+The SNS topic looks like this:
+![eventbridge SNS](assets/eventbridge_sns.jpg)
+
+
+### Review all the questions of each pillars in the Well Architected Tool (No specialized lens)
+
+I checked all the FAQs and whitepapers on the Well Architected Tool and its pillars like: 
+*Operational Excellence Pillar
+*Security Pillar
+*Reliability Pillar
+*Performance Efficiency Pillar
+*Cost Optimization Pillar
+*Sustainability Pillar
+
 
 
