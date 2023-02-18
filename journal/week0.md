@@ -15,7 +15,7 @@ I was able to set up Gitpod and set up AWS CLI on it using the steps mentioned i
 ### Recreate Architectural Diagram
 
 I recreated the conceptual diagram on the napkin as follows:
-![Conceptual Architecture](assets/concept.jpeg)
+![Conceptual Architecture](assets/concept.jpg)
 
 
 ### Recreate Architectural Diagram
