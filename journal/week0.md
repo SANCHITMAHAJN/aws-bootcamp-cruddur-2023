@@ -1,5 +1,8 @@
 # Week 0 — Billing and Architecture
 
+
+<p> The purpose of this week's work was to set up our AWS account with IAM User and configure budget and billing alarms, create conceptual as well as architectural diagrams and get acquainted with CloudShell and Gitpod. This will set us ready for Week 1. </p>
+
 ## Required Homework/Tasks
 
 ### Set up AWS Account
