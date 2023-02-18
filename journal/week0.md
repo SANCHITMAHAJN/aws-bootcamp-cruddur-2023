@@ -7,10 +7,15 @@
 I created an AWS Account, Set up MFA on the root acoount, and created an IAM User 'sanchit' with administrator privileges.
 
 ### Install AWS CLI
-I was able to set up Gitpod and set up AWS CLI on it using the steps mentioned in the YouTube video. and was able to modify gitpod.yml to initialize CLI. Here's the screenshot showing my Account ID set up as env variable:
+I was able to set up Gitpod and set up AWS CLI on it using the steps mentioned in the YouTube video, and generated my Admin users access keys too. and was able to modify gitpod.yml to initialize CLI. Here's the screenshot showing my Account ID set up as env variable:
 
 ![Installing AWS CLI](assets/AWS_CLI.jpg)
 
+
+### Recreate Architectural Diagram
+
+I recreated the conceptual diagram on the napkin as follows:
+![Conceptual Architecture](assets/concept.jpeg)
 
 
 ### Recreate Architectural Diagram
@@ -31,3 +36,22 @@ Here's the screenshot of the budget:
 
 Here's the screenshot of the SNS topic that has been set up:
 ![The SNS topic that notifies me at my email](assets/sns.jpg)
+
+
+## Homework Challenges:
+
+### Destroy Root Credentials, Set MFA, IAM Role
+
+I enabled IAM role on my console when logged in as root to enable IAM users with the specific permissions to view the billing/cost dashboards.
+
+![iam_role](assets/iam_role.jpg)
+
+I also made sure the root access keys were disabled and MFA was set up on my AWS console:
+
+![root secured](assets/root_secure.jpg)
+
+
+### Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue
+
+
+
