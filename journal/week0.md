@@ -17,10 +17,16 @@ I was able to set up Gitpod and set up AWS CLI on it using the steps mentioned i
 
 I recreated the architectural diagram using Lucid Charts. Here's the diagram and link to view it:
 
+![Cloud Architecture](assets/Cloud_Architecture.jpeg)
 
 https://lucid.app/lucidchart/e550b517-acb5-419b-a966-29dc7c222e18/edit?viewport_loc=-2459%2C111%2C4096%2C1852%2C0_0&invitationId=inv_93df9e84-930e-40b9-a339-0e87ef4a8b6e
 
 
 ### CloudShell and Setting up Budget and Billing Alarms
 
-I did some hands-on with CloudShell and set up my budget and Billing alarm via SNS adn EventBridge on Gitpod.
+I did some hands-on with CloudShell and set up my budget and Billing alarm via SNS adn EventBridge on Gitpod. The scripts for them are already in my repo, and I'm attaching the screenshots from my console.
+
+
+![Budget](assets/budget.jpg)
+
+![The SNS topic that notifies me at my email](assets/sns.jpg)
