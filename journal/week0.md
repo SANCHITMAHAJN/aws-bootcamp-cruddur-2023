@@ -64,12 +64,12 @@ The SNS topic looks like this:
 ### Review all the questions of each pillars in the Well Architected Tool (No specialized lens)
 
 I checked all the FAQs and whitepapers on the Well Architected Tool and its pillars like: 
-*Operational Excellence Pillar
-*Security Pillar
-*Reliability Pillar
-*Performance Efficiency Pillar
-*Cost Optimization Pillar
-*Sustainability Pillar
+* Operational Excellence Pillar
+* Security Pillar
+* Reliability Pillar
+* Performance Efficiency Pillar
+* Cost Optimization Pillar
+* Sustainability Pillar
 
 
 
