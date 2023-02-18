@@ -7,7 +7,7 @@
 I created an AWS Account, Set up MFA on the root acoount, and created an IAM User 'sanchit' with administrator privileges.
 
 ### Install AWS CLI
-I was able to set up Gitpod and set up AWS CLI on it using the steps mentioned in the YouTube video. and was able to modify gitpod.yml to initialize CLI.
+I was able to set up Gitpod and set up AWS CLI on it using the steps mentioned in the YouTube video. and was able to modify gitpod.yml to initialize CLI. Here's the screenshot showing my Account ID set up as env variable:
 
 ![Installing AWS CLI](assets/AWS_CLI.jpg)
 
@@ -26,7 +26,8 @@ https://lucid.app/lucidchart/e550b517-acb5-419b-a966-29dc7c222e18/edit?viewport_
 
 I did some hands-on with CloudShell and set up my budget and Billing alarm via SNS adn EventBridge on Gitpod. The scripts for them are already in my repo, and I'm attaching the screenshots from my console.
 
-
+Here's the screenshot of the budget:
 ![Budget](assets/budget.jpg)
 
+Here's the screenshot of the SNS topic that has been set up:
 ![The SNS topic that notifies me at my email](assets/sns.jpg)
