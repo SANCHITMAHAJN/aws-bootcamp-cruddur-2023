@@ -18,7 +18,8 @@ COPY . .
 # Set Env Vars INSIDE and will remain set when the container is running
 ENV FLASK_ENV=development
 
+COPY cmdfile.py .
 
 # python3 -m flask run --host=0.0.0.0 --port=4567 from cmdfile.py
-CMD [ "python3", "./cmdfile.py"]
+CMD [ "python3", "cmdfile.py"]
 
