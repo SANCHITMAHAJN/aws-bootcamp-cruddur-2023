@@ -20,5 +20,5 @@ ENV FLASK_ENV=development
 
 
 # python3 -m flask run --host=0.0.0.0 --port=4567 from cmdfile.py
-CMD ["python", "./cmdfile.py"]
+CMD [ "python3", "./cmdfile.py"]
 
