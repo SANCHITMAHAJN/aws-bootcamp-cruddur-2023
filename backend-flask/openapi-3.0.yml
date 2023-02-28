@@ -173,13 +173,13 @@ components:
           example: 0056a369-4618-43a4-ad88-e7c371bf5582
         display_name:
           type: string
-          example: "Andrew Brown"
+          example: "Michael Scott"
         handle:
           type: string
-          example: "andrewbrown"
+          example: "mscott"
         message:
           type: string
-          example: "Who likes pineapple on their pizza?"
+          example: "TWSS!"
         replies_count:
           type: integer
           example: 5
@@ -206,10 +206,10 @@ components:
           example: 0056a369-4618-43a4-ad88-e7c371bf5582
         handle:
           type: string
-          example: "andrewbrown"
+          example: "mscott"
         message:
           type: string
-          example: "Who likes pineapple on their pizza?"
+          example: "TWSS!"
         replies_count:
           type: integer
           example: 5
