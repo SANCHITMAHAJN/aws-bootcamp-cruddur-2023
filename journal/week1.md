@@ -37,7 +37,7 @@ The docker tag is run by tagging the image according to the DockerHub username. 
 ### Implement a healthcheck in the Docker compose file
 I wrote my docker-compose file like this to implement healthcheck on my backend container.
 
-![healthcheck](assets/healthcheck.jpg)
+![healthcheck](assets/healthcheck_backend.jpg)
 
 ### Install Docker locally and run containers
 I was able to Download Docker, sign in and use VSCode on my local machine to pull my docker image and run containers locally.
