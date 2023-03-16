@@ -26,10 +26,13 @@ This week focused on enabling logging, tracing and monitoring for our Cruddur ap
 ## AWS Xray
 
 * Add the required dependencies to requirements.txt
+
 ![xray_req](assets/xray_req.jpg)
 
 * Add environment variables to the docker-compose file
+
 ![xray_dc](assets/xray_dc.jpg)
+
 ![xray_daemon](assets/xray_daemon.jpg)
 
 * Create an xray trace group
