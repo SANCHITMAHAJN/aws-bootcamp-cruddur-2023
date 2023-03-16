@@ -76,7 +76,6 @@ This week focused on enabling logging, tracing and monitoring for our Cruddur ap
 
 * Add the following to app.py file
 ![rollbar_app](assets/rollbar_app.jpg)
-![rollbar_appp](assets/rollbar_app1.jpg)
 
 * Compose-up the containers to check error on Rollbar:
 ![rollbar_log](assets/rollbar_log.jpg)
