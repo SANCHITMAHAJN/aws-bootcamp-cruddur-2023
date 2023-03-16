@@ -7,54 +7,58 @@ This week focused on enabling logging, tracing and monitoring for our Cruddur ap
 
 * Created an account on honeycomb.io and created a new environment 'bootcamp'.
 * Generated API Key for the environment and set it as a variable in my Gitpod environment.
- ![React error](assets/react_error.jpg)
+ ![honeycomb](assets/honeycomb_api.jpg)
  
  * We are using Open Source Telemetry (OTEL), and installed the dependencies required by adding the following packages to our requirements.txt file
- ![React error](assets/react_error.jpg)
+ ![otel](assets/otel.jpg)
  
  * Added the environment keys in the docker-compose file, and restarted the workspace.
- ![React error](assets/react_error.jpg)
+ ![envkeys](assets/env_dc.jpg)
  
  * Added the following code to app.py to fully start honeycomb tracing
-![](assets/.jpg)
+![hc_app](assets/hc_app.jpg)
 
 * Composed up our docker containers to test working and getting our first trace in the Honeycomb dashboard.
-![](assets/.jpg)
+![hc_logs](assets/honeycomb_log.jpg)
 
 
 
 ## AWS Xray
 
 * Add the required dependencies to requirements.txt
-![](assets/.jpg)
+![xray_req](assets/xray_req.jpg)
 
 * Add environment variables to the docker-compose file
-![](assets/.jpg)
+![xray_dc](assets/xray_dc.jpg)
+![xray_daemon](assets/xray_daemon.jpg)
 
 * Create an xray trace group
-![](assets/.jpg)
+![xray_create_group](assets/xray_create_group.jpg)
 
 * Create a file aws/json/xray.json with the following sampling rule
-![](assets/.jpg)
+![xray_json](assets/xray_json.jpg)
 
 * Add the following command 
-![](assets/.jpg)
+![](assets/xray_command.jpg)
 
 * Add the following to app.py
-![](assets/.jpg)
+![xray_app](assets/xray_app.jpg)
 
 
 ## AWS CloudWatch
 
 * Add the dependencies in the requirements.txt file
-![](assets/.jpg)
+![cw_req](assets/cw_req.jpg)
 
 * Add the following to docker-compose file
-![](assets/.jpg)
+![cw_dc](assets/cw_dc.jpg)
 
 * Add the following logger command to the app.py file
-![](assets/.jpg)
+![cw_app](assets/cw_app.jpg)
+![cw_appp](assets/cw_app1.jpg)
 
+* You should see the following logs:
+![cw_logs](assets/cw_logs.jpg)
 
 
 ## Rollbar
@@ -62,16 +66,17 @@ This week focused on enabling logging, tracing and monitoring for our Cruddur ap
 * Create an account on Rollbar.
 
 * Add the following dependencies to requirements.txt file:
-![](assets/.jpg)
+![rollbar_req](assets/rollbar_req.jpg)
 
 * Add the following to docker-compose file:
-![](assets/.jpg)
+![rollbar_dc](assets/rollbar_dc.jpg)
 
 * Add the following to app.py file
-![](assets/.jpg)
+![rollbar_app](assets/rollbar_app.jpg)
+![rollbar_appp](assets/rollbar_app1.jpg)
 
 * Compose-up the containers to check error on Rollbar:
-![](assets/.jpg)
+![rollbar_log](assets/rollbar_log.jpg)
 
 
 ### Notes
